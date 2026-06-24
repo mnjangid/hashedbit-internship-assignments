@@ -1,4 +1,5 @@
 export function Table({ users }) {
+    const sorted = [...users].sort((a,b)=>b.NRR - a.NRR)
   return (
     <div>
       <table border="1">
@@ -15,7 +16,7 @@ export function Table({ users }) {
           </tr>
         </thead>
         <tbody>
-            {users.map((user) => (
+            {sorted.map((user) => (
               <tr key={user.No}>
                 <td>{user.No}</td>
                 <td>{user.Team}</td>
