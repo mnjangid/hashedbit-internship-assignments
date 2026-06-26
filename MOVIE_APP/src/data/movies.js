@@ -1,20 +1,23 @@
+import leo from "../assets/leo.webp";
+import welcome from "../assets/welcome.avif"
+import jumanji from "../assets/jumanji.jpg"
 const movies = [
   {
     id: 1,
-    title: "Avengers Endgame",
-    image: "https://picsum.photos/200/300?1",
-    description: "Marvel Superhero Movie"
+    title: "LEO",
+    image: leo,
+    description: 'Welocme to the LCU Cinema. The story is based on a person named Parthiban who lives in Kashmir with his family. Someone looks like him and when they recognize that he is the same back leo known for his.............  '
   },
   {
     id: 2,
-    title: "Interstellar",
-    image: "https://picsum.photos/200/300?2",
-    description: "Space Adventure"
+    title: "Welcome 2 the JUNGLE",
+    image:  welcome,
+    description: "YRF PRESENTS"
   },
   {
     id: 3,
-    title: "Inception",
-    image: "https://picsum.photos/200/300?3",
+    title: "JUMANJI",
+    image: jumanji,
     description: "Dream within Dreams"
   },
   {
